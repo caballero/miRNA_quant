@@ -9,8 +9,8 @@ if (len(sys.argv) != 3):
     print("Usage: {} <fasta_input> <fasta_output>".format(sys.argv[0]))
     sys.exit(1)
 
-in_file  = sys.argv[2]
-out_file = sys.argv[3]
+in_file  = sys.argv[1]
+out_file = sys.argv[2]
 prefix   = ">seq_"
 
 seqs = {}
